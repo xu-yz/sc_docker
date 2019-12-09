@@ -1,6 +1,5 @@
-package com.sc_docker.spring.base.factory;
+package com.sc_docker.spring.iocbase.factory;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Enumeration;
@@ -27,7 +26,7 @@ public class BeanFactory {
 //            实例化对象
             props = new Properties();
 //           获取properties文件的流对象
-            InputStream in = BeanFactory.class.getClassLoader().getResourceAsStream("bean.properties");
+            InputStream in = BeanFactory.class.getClassLoader().getResourceAsStream("iocbase_bean.properties");
             props.load(in);
 //            实例化容器
             beans = new HashMap<String, Object>();
@@ -80,7 +79,7 @@ public class BeanFactory {
 //            实例化对象
                 props = new Properties();
 //           获取properties文件的流对象
-                InputStream in = com.sc_docker.spring.base.factory.BeanFactory.class.getClassLoader().getResourceAsStream("bean.properties");
+                InputStream in = com.sc_docker.spring.iocbase.factory.BeanFactory.class.getClassLoader().getResourceAsStream("iocbase_bean.properties");
                 props.load(in);
 //            实例化容器
                 beans = new HashMap<String, Object>();

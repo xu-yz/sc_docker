@@ -1,6 +1,6 @@
-package com.sc_docker.spring.base.dao.impl;
+package com.sc_docker.spring.spring.dao.impl;
 
-import com.sc_docker.spring.base.dao.IAccountDao;
+import com.sc_docker.spring.spring.dao.IAccountDao;
 
 public class AccountDaoImpl implements IAccountDao {
     public void saveAccount() {

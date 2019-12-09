@@ -1,4 +1,4 @@
-package com.sc_docker.spring.base.service;
+package com.sc_docker.spring.spring.service;
 
 public interface IAccountService {
     /**
