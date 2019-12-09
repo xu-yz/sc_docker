@@ -2,7 +2,7 @@ package com.sc_docker.spring.jdbc;
 
 import java.sql.*;
 
-public class JDBC {
+public class JdbcDemo {
     public static void main(String[] args) throws SQLException {
 
 //        1.注册驱动

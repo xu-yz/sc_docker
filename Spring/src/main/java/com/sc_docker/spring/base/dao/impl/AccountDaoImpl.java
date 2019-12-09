@@ -1,4 +1,4 @@
-package com.sc_docker.spring.base.dao.dao;
+package com.sc_docker.spring.base.dao.impl;
 
 import com.sc_docker.spring.base.dao.IAccountDao;
 

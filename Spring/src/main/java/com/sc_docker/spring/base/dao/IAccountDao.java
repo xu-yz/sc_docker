@@ -1,4 +1,4 @@
-package com.sc_docker.spring.factory.dao;
+package com.sc_docker.spring.base.dao;
 
 /**
  * 账户的持久层接口
