@@ -18,7 +18,7 @@ public class Client {
      */
     public static void main(String[] args) {
 //        1.获取核心容器对象
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
 //        2.根据id获取Bean对象
         IAccountService as = (IAccountService) context.getBean("accountService");
         IAccountDao adao = context.getBean("accountDao",IAccountDao.class);
