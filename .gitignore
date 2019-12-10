@@ -1,3 +1,7 @@
 #
-Spring/target/
-Spring/.idea/
+Spirng/.idea/
+.idea/
+.idea/workspace.xml
+target
+*.iml
+
